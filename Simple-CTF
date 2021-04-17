@@ -1,6 +1,7 @@
 # Simple-CTF
 
 How many services are running under port 1000? 2
+
 ```
 nmap -sCV 10.10.166.152
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-04-16 18:02 CDT
@@ -69,7 +70,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 /simple               (Status: 301) [Size: 315] [--> http://10.10.166.152/simple/]
 ```
 
-```
+
 What is running on the higher port? SSH
 
 What's the CVE you're using against the application? CVE-2019-9053
@@ -147,6 +148,7 @@ $ cd ..
 $ ls
 mitch  sunbath
 ```
+
 What can you leverage to spawn a privileged shell?
 vim
 
